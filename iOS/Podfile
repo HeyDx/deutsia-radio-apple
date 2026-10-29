@@ -1,0 +1,7 @@
+source 'https://cdn.cocoapods.org/'
+platform :ios, '17.0'
+use_frameworks!
+project 'DeutsiaRadio.xcodeproj'
+target 'DeutsiaRadio' do
+  pod 'MobileVLCKit', '3.6.0'
+end

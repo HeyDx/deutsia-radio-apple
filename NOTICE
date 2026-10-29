@@ -1,0 +1,13 @@
+Deutsia Radio macOS / iOS community adaptation
+Original: https://github.com/deutsia/deutsia-radio
+Copyright 2025 deutsia. Apache License 2.0.
+Upstream revision: 38499d6f2555a80de4b7df1b1073f3e0cdb1f124 (v1.8.1).
+This is a new native Apple-platform implementation, modified 2026-10-29.
+Not an official release by the upstream project. Tor integration removed.
+Mac playback: libVLC 3.0.21, VideoLAN, LGPL-2.1-or-later (individual plugins may have other licenses).
+VLC official distribution: https://download.videolan.org/pub/videolan/vlc/3.0.21/macosx/vlc-3.0.21-arm64.dmg
+Corresponding VLC source: https://download.videolan.org/pub/videolan/vlc/3.0.21/vlc-3.0.21.tar.xz
+The dynamically linked libraries may be replaced with compatible user builds.
+
+Apple-platform adaptation and interface design: Billson.
+AI-assisted development: OpenAI Codex. Model used: gpt-6.1-sol.
